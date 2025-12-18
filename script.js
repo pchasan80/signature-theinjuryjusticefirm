@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         const logoHtml = `
-            <td width="250" style="width: 250px; vertical-align: top; padding-right: 20px;">
+            <td width="250" style="width: 250px; vertical-align: middle; padding-right: 20px;">
                 <img src="${companyData.logoUrl}" alt="${companyData.name}" width="250" style="width: 100%; height: auto; border: 0;">
                 <div style="margin-top: 15px; text-align: center;">
                     <a href="${companyData.social.facebook}" style="text-decoration: none; margin-right: 5px;">
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px; font-family: 'Montserrat', Arial, sans-serif; font-size: 14px; line-height: 1.4; color: ${companyData.colors.text};">
                 <tr>
                     ${logoHtml}
-                    <td width="350" style="width: 350px; vertical-align: top;">
+                    <td width="350" style="width: 350px; vertical-align: middle;">
                         <div style="font-size: 18px; font-weight: bold; color: ${companyData.colors.primary}; margin-bottom: 4px;">
                             ${data.fullName}
                         </div>
