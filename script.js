@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Static Data
     const companyData = {
         name: "The Injury Justice Firm",
-        tagline: "Truck Wreck & Brain Injury Lawyers",
+        tagline: "Experienced Personal Injury Lawyers in Los Angeles",
         address: "3530 Wilshire Boulevard, Suite 1460,<br>Los Angeles, CA 90010",
         mapUrl: "https://maps.app.goo.gl/RQM9nud26CNp6Rqe9",
         website: "www.theinjuryjusticefirm.com",
