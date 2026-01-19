@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         mapUrl: "https://maps.app.goo.gl/RQM9nud26CNp6Rqe9",
         website: "www.theinjuryjusticefirm.com",
         websiteUrl: "https://www.theinjuryjusticefirm.com/",
-        logoUrl: "https://www.theinjuryjusticefirm.com/wp-content/uploads/2025/10/Logo-1-1024x310.webp",
+        logoUrl: "https://signature-theinjuryjusticefirm.mylogosignature.com/icons/tijf-logo.png",
         colors: {
             primary: "#002341", // Navy
             accent: "#dbb887",  // Gold
@@ -51,17 +51,17 @@ document.addEventListener('DOMContentLoaded', function() {
     // Icons (hosted on a reliable CDN or similar)
     const icons = {
         social: {
-            linkedin: "https://raw.githubusercontent.com/pchasan80/signature-theinjuryjusticefirm/refs/heads/main/icons/linkedin.png",
-            facebook: "https://raw.githubusercontent.com/pchasan80/signature-theinjuryjusticefirm/refs/heads/main/icons/facebook.png",
-            instagram: "https://raw.githubusercontent.com/pchasan80/signature-theinjuryjusticefirm/refs/heads/main/icons/instagram.png",
-            google: "https://raw.githubusercontent.com/pchasan80/signature-theinjuryjusticefirm/refs/heads/main/icons/store.png"
+            linkedin: "https://signature-theinjuryjusticefirm.mylogosignature.com/icons/linkedin.png",
+            facebook: "https://signature-theinjuryjusticefirm.mylogosignature.com/icons/facebook.png",
+            instagram: "https://signature-theinjuryjusticefirm.mylogosignature.com/icons/instagram.png",
+            google: "https://signature-theinjuryjusticefirm.mylogosignature.com/icons/store.png"
         },
         contact: {
-            phone: "https://raw.githubusercontent.com/pchasan80/signature-theinjuryjusticefirm/refs/heads/main/icons/call.png",
-            email: "https://raw.githubusercontent.com/pchasan80/signature-theinjuryjusticefirm/refs/heads/main/icons/email.png",
-            web: "https://raw.githubusercontent.com/pchasan80/signature-theinjuryjusticefirm/refs/heads/main/icons/globe.png",
-            address: "https://raw.githubusercontent.com/pchasan80/signature-theinjuryjusticefirm/refs/heads/main/icons/maps-and-flags.png",
-            fax: "https://raw.githubusercontent.com/pchasan80/signature-theinjuryjusticefirm/refs/heads/main/icons/fax-machine.png"
+            phone: "https://signature-theinjuryjusticefirm.mylogosignature.com/icons/call.png",
+            email: "https://signature-theinjuryjusticefirm.mylogosignature.com/icons/email.png",
+            web: "https://signature-theinjuryjusticefirm.mylogosignature.com/icons/globe.png",
+            address: "https://signature-theinjuryjusticefirm.mylogosignature.com/icons/maps-and-flags.png",
+            fax: "https://signature-theinjuryjusticefirm.mylogosignature.com/icons/fax-machine.png"
         }
     };
 
@@ -89,7 +89,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <td width="42%" style="width: 42%; vertical-align: top; padding-right: 20px; max-width: 250px;">
                 <img src="${companyData.logoUrl}" alt="${companyData.name}" width="250" style="max-width: 250px; width: 100%; height: auto; border: 0; display: block;">
                 <div style="margin-top: 15px; text-align: center;">
-                    <span style="display: inline-block; width: 25px;">&nbsp;</span>
+                    <a href="${companyData.social.linkedin}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; margin-right: 5px;">
+                        <img src="${icons.social.linkedin}" alt="LinkedIn" width="20" height="20" style="display: inline-block; width: 0px; height: 0px;">
+                    </a>
                     <a href="${companyData.social.facebook}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; margin-right: 5px;">
                         <img src="${icons.social.facebook}" alt="Facebook" width="20" height="20" style="display: inline-block;">
                     </a>
